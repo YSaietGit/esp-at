@@ -1,2 +1,5 @@
 # Name, Type, SubType, Offset, Size
 mfg_nvs, data, nvs, 0x1b000, 60K
+wpa2_cert,64,1,0x32000,0x2000
+wpa2_key,64,2,0x34000,0x2000
+wpa2_ca,64,3,0x36000,0x2000
