@@ -1,3 +1,7 @@
 # Name, Type, SubType, Offset, Size
 mfg_nvs, data, nvs, 0x1f000, 124K
 fatfs, data, fat, 0x47000, 100K
+wpa2_cert,64,3,0x3e000,0x2000
+wpa2_key,64,4,0x41000,0x2000
+wpa2_ca,64,5,0x43000,0x2000
+server_ca,64,6,0x45000,0x2000
