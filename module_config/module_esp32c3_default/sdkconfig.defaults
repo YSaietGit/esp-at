@@ -62,6 +62,14 @@ CONFIG_BT_CTRL_SLEEP_CLOCK_EFF=2
 
 # Log output
 CONFIG_LOG_DEFAULT_LEVEL_ERROR=y
+# Enable USB device peripheral (device-mode)
+CONFIG_USB_DEVICE_ENABLED=y
+# Enable TinyUSB device stack
+CONFIG_TINYUSB_ENABLED=y
+# Enable CDC-ACM (USB serial) class so the device appears as a USB-serial (ACM) endpoint
+CONFIG_TINYUSB_CDC_ACM_ENABLED=y
+# Route the ESP console and logs to the USB CDC backend
+CONFIG_ESP_CONSOLE_USB_CDC=y
 
 # Compiler
 CONFIG_COMPILER_OPTIMIZATION_DEBUG=y
